@@ -1,0 +1,372 @@
+body {
+  background-color: #1B132E;
+}
+
+h1 {
+  color: #7545B8;
+  font-family: sans-serif;
+}
+
+h2, h3, h4, h6 {
+  color: #DBD8E5;
+}
+
+h5 {
+  text-align: right;
+  display:inline;
+}
+
+h4 {
+  text-align: center;
+}
+
+.footer {
+  display: block;
+  background-color: #7545B8;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.footer a {
+  text-decoration: none;
+  color: #DBD8E5;
+}
+.footer a:hover {
+  color: #EEEEEE;
+}
+
+.bg-dark {
+  background-color: #7545B8 !important;
+  color:#DBD8E5 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #EEEEEE !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #DBD8E5;
+}
+
+@media only screen and (max-width: 400px) {
+  .input-box {
+    padding: 5px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #D0B3E5;
+    width: 100%;
+    top: 40%;
+    border-radius: 10px;
+  }
+  .main-wrap{
+    display:flex;
+    justify-content:space-between;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .side-bar {
+    display: block;
+    width: 100%;
+    background-color: #7545B8;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style:none;
+  }
+
+  .projects-bar {
+    margin-top: 2%;
+    position: static;
+    order: 1;
+  }
+
+  .petitions-bar {
+    margin-top: 2%;
+    position: static;
+    order: 2;
+  }
+  .feed-main {
+    display: block;
+    background-color: #7545B8;
+    margin-top: 2%;
+    width: 100%;
+    order: 0;
+  }
+  .profile-block {
+    display: flex;
+    background-color: #7545B8;
+    width: 100%;
+    margin-top: 2%;
+    flex-direction: column;
+  }
+
+  .profile-block h5 {
+    display: block;
+    color: #DBD8E5;
+  }
+
+  .about {
+    display: block;
+    background-color: #D0B3E5;
+    color: #1B132E;
+    width: 100%;
+    text-decoration: none;
+  }
+  .about ul {
+    list-style-type: none;
+    font-size: 2em;
+    height: 100%;
+  }
+
+  .card {
+    width: 100%;
+    background-color: inherit;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .input-box {
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #D0B3E5;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    bottom: 40%;
+    border-radius: 10px;
+  }
+  .main-wrap{
+    display:flex;
+    justify-content:space-between;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .side-bar {
+    display: block;
+    width: 100%;
+    background-color: #7545B8;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style:none;
+  }
+
+  .projects-bar {
+    margin-top: 2%;
+    position: static;
+    order: 1;
+  }
+
+  .petitions-bar {
+    margin-top: 2%;
+    position: static;
+    order: 2;
+  }
+  .feed-main {
+    display: block;
+    background-color: #7545B8;
+    margin-top: 2%;
+    width: 100%;
+    order: 0;
+  }
+  .profile-block {
+    display: flex;
+    background-color: #7545B8;
+    width: 100%;
+    margin-top: 2%;
+    flex-direction: column;
+  }
+
+  .profile-block h5 {
+    display: block;
+    color: #DBD8E5;
+  }
+
+  .about {
+    display: block;
+    background-color: #D0B3E5;
+    color: #1B132E;
+    width: 100%;
+    text-decoration: none;
+  }
+  .about ul {
+    list-style-type: none;
+    font-size: 2em;
+    height: 100%;
+  }
+
+  .card {
+    width: 100%;
+    background-color: inherit;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+
+  .input-box {
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #D0B3E5;
+    left: 25%;
+    width: 50%;
+    height: 40%;
+    bottom: 200px;
+    border-radius: 10px;
+  }
+  .main-wrap{
+    display:flex;
+    justify-content:space-between;
+    height: 100%;
+  }
+
+  .side-bar {
+    display: block;
+    width: 25%;
+    height: 80vh;
+    background-color: #7545B8;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style:none;
+  }
+
+  .projects-bar {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    top: 0;
+  }
+
+  .petitions-bar {
+    position: -webkit-sticky;
+    position: sticky;
+    right: 0;
+    top: 0;
+  }
+  .feed-main {
+    display: block;
+    background-color: #7545B8;
+    margin-top: 2%;
+    width: 40%;
+    margin-bottom: 100px;
+  }
+  .profile-block {
+    position: fixed;
+    left: 15%;
+    bottom: 25%;
+    display: flex;
+    background-color: #7545B8;
+    width: 70%;
+    margin-top: 2%;
+  }
+
+  .profile-block h5 {
+    display: block;
+    color: #DBD8E5;
+  }
+
+  .about {
+    float: right;
+    display: block;
+    background-color: #D0B3E5;
+    color: #1B132E;
+    width: 60%;
+    text-decoration: none;
+  }
+  .about ul {
+    list-style-type: none;
+    font-size: 2em;
+    height: 100%;
+  }
+
+  .card {
+    width: 40%;
+    background-color: inherit;
+  }
+}
+
+
+
+.input-box select {
+  width:60%;
+  height: 2em;
+}
+
+.input-box input {
+  width: 90.75%;
+}
+.input-pair input {
+  width: 30%;
+}
+
+.input-box a {
+  display: block;
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
+  color: #DBD8E5;
+  background-color: #7545B8;
+  position:relative;
+  left: 30%;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.input-box a:hover {
+  color: #EEE;
+}
+
+
+.side-bar::-webkit-scrollbar-track {
+  background: #7545B8;
+}
+
+.side-bar::-webkit-scrollbar-thumb {
+  background: #7545B8;
+}
+
+.side-bar::-webkit-scrollbar-thumb:hover {
+  background: #1B132E;
+}
+
+
+
+.post {
+  display: block;
+  background-color: #D0B3E5;
+  color: #1B132E;
+  width: 90%;
+  border-radius: 10px;
+  margin-left: 5%;
+  text-decoration: none;
+}
+
+.nav-item img:hover {
+  background-color: #D0B3E5;
+}
+
+.nav-item input {
+  height: 80%;
+}
+
+.post:last-child {
+  text-align: center;
+}
+
+/*Color Scheme options:
+Purple Shades
+Ebony #1B132E
+Studio #7545B8
+Prelude #D0B3E5
+
+White/Gray Shades
+Manatee #8C8C95
+Mischka #DBD8E5 */

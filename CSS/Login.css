@@ -1,0 +1,117 @@
+
+@media only screen and (max-width: 400px) {
+  .login-box {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #D0B3E5;
+    border-radius: 10px;
+    padding: 10px;
+    left:10%;
+    width: 80%;
+    height: 60%;
+    bottom: 10%; }
+
+    .login-box a {
+      display: block;
+      width: 40%;
+      text-align: center;
+      border-radius: 10px;
+      color: #DBD8E5;
+      background-color: #7545B8;
+      position:relative;
+      left: 30%;
+      text-decoration: none;
+      font-size: 1.5em;
+    }
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .login-box {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #D0B3E5;
+    border-radius: 10px;
+    padding: 10px;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    bottom: 20%; }
+
+    .login-box a {
+      display: block;
+      width: 40%;
+      text-align: center;
+      border-radius: 10px;
+      color: #DBD8E5;
+      background-color: #7545B8;
+      position:relative;
+      left: 30%;
+      text-decoration: none;
+      font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+  .login-box {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #D0B3E5;
+    border-radius: 10px;
+    padding: 10px;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    bottom: 200px; }
+
+    .login-box a {
+      display: block;
+      width: 40%;
+      text-align: center;
+      border-radius: 10px;
+      color: #DBD8E5;
+      background-color: #7545B8;
+      position:relative;
+      left: 30%;
+      text-decoration: none;
+      font-size: 1.5em;
+    }
+
+}
+
+
+
+
+.login-box a:hover {
+  color: #EEE;
+}
+
+
+.input-field-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+input {
+  border-radius: 5px;
+  height:55%;
+}
+
+
+/*Color Scheme options:
+Purple Shades
+Ebony #1B132E
+Studio #7545B8
+Prelude #D0B3E5
+
+White/Gray Shades
+Manatee #8C8C95
+Mischka #DBD8E5 */
